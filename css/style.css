@@ -5,6 +5,7 @@
     display: none;
     margin: 15px 0;
     text-align: center;
+    padding-top: 10px;
 }
 
 .malinky-ajax-pagination-loading img {
@@ -17,8 +18,29 @@
  * ------------------------------------------------------------------------ */
 .malinky-load-more {
     text-align: center;
+    padding-top: 5px;
+
+}
+
+
+.malinky-load-more__button {
+    color: white;
+    padding: 12px;
+    background-color: #773F5C;
+    border-radius: 3px;
+    font-size: 20px;
+}
+.malinky-load-more__button::before{
+  font: 20px/1 FontAwesome;
+  content: "\f13a";
+  margin-right: 5px;
+}
+.malinky-load-more__button:hover{
+  background-color: #B53E7E;
+  color: white;
 }
 
 .malinky-load-more__button-disable {
     pointer-events: none;
+    font-size: 20px;
 }
